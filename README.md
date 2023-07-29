@@ -1,6 +1,6 @@
 # [Real-Debrid API](https://github.com/ValentinGot/real-debrid)
 
-[![Latest Stable Version](https://poser.pugx.org/vgot/real-debrid/v/stable)](https://packagist.org/packages/vgot/real-debrid)
+[![Latest Stable Version](https://poser.pugx.org/rleroi/real-debrid/v/stable)](https://packagist.org/packages/rleroi/real-debrid)
 [![Build Status](https://travis-ci.org/ValentinGot/real-debrid.svg)](https://travis-ci.org/ValentinGot/real-debrid)
 
 > A simple API interface for real-debrid.com.
@@ -16,7 +16,7 @@ You may install the Real-Debrid API with Composer (recommended) or manually.
 **Via [Composer](https://getcomposer.org) (preferred method)**
 
 ```
-$ composer require vgot/real-debrid
+$ composer require rleroi/real-debrid
 ```
 
 **Manually**
