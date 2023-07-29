@@ -46,6 +46,16 @@ class Torrents extends EndPoint {
     }
 
     /**
+     * Get all information on the asked torrent
+     *
+     * @param string $hash Torrent SHA1 hash
+     * @return \stdClass Torrent information
+     */
+    public function instantAvailability($hash) {
+        return $this->request(new InfoRequest($this->token, $hash));
+    }
+
+    /**
      * Get available hosts to upload the torrent to
      *
      * @return array Available hosts
