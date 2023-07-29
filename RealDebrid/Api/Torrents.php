@@ -7,6 +7,7 @@ use RealDebrid\Request\Torrents\AddTorrentRequest;
 use RealDebrid\Request\Torrents\AvailableHostsRequest;
 use RealDebrid\Request\Torrents\DeleteRequest;
 use RealDebrid\Request\Torrents\InfoRequest;
+use RealDebrid\Request\Torrents\InstantAvailabilityRequest;
 use RealDebrid\Request\Torrents\SelectFilesRequest;
 use RealDebrid\Request\Torrents\TorrentsRequest;
 
@@ -46,13 +47,13 @@ class Torrents extends EndPoint {
     }
 
     /**
-     * Get all information on the asked torrent
+     * Get list of instantly available file IDs by hoster
      *
      * @param string $hash Torrent SHA1 hash
      * @return \stdClass Torrent information
      */
     public function instantAvailability($hash) {
-        return $this->request(new InfoRequest($this->token, $hash));
+        return $this->request(new InstantAvailabilityRequest($this->token, $hash));
     }
 
     /**
