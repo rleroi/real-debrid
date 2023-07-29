@@ -4,7 +4,7 @@
   "description": "A simple API interface for real-debrid.com",
   "keywords": ["real-debrid.com", "unrestrict", "torrent", "download", "api.real-debrid.com", "magnet"],
   "homepage": "https://github.com/ValentinGot/real-debrid",
-  "version": "2.1.1",
+  "version": "2.1.2",
   "license": "MIT",
   "authors": [
     {
@@ -15,7 +15,7 @@
   "require": {
     "php": ">=5.6.0",
     "guzzlehttp/guzzle": "^7.7",
-    "illuminate/collections": "^10.16",
+    "illuminate/collections": "^9",
     "nesbot/carbon": "^2"
   },
   "require-dev": {
