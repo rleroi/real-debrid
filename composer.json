@@ -14,17 +14,22 @@
   ],
   "require": {
     "php": ">=5.6.0",
-    "guzzlehttp/guzzle": "^6.1",
+    "guzzlehttp/guzzle": "^7.7",
     "nesbot/carbon": "^1.21",
     "illuminate/support": "^5.1"
   },
   "require-dev": {
     "phpdocumentor/phpdocumentor": "2.*",
     "phpunit/phpunit": "5.0.10",
-    "vlucas/phpdotenv": "2.0.x-dev",
+    "vlucas/phpdotenv": "^5.5",
     "mockery/mockery": "0.9.4"
   },
   "autoload": {
     "psr-0": { "RealDebrid": "." }
+  },
+  "config": {
+    "allow-plugins": {
+      "kylekatarnls/update-helper": true
+    }
   }
 }
