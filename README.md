@@ -24,7 +24,7 @@ $ composer require rleroi/real-debrid
 If you don't want/have composer installed on your computer, you can manually download the library by cloning it with git.
 
 ```
-$ git clone https://github.com/ValentinGot/real-debrid.git
+$ git clone https://github.com/rleroi/real-debrid.git
 ```
 
 ### System Requirements
